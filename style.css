@@ -36,9 +36,7 @@ body{
     line-height: 25px;
     padding: 30px 0px; 
 }
-.section-1-main-right{
 
-}
 .first-flower{
     width: 500px; 
     padding-top: 50px; 
@@ -52,10 +50,66 @@ body{
     border: 0px;
     padding:20px 40px;
 }
-./* my second section end */
-.section-2-description{
+/* my first section end */
+/* my extra section start */
+.our-product{
+    background: #a1a0a049;
+    margin-bottom: 120px;
 
 }
+.product-description{
+    text-align: center;
+}
+.product-description h1{
+    padding-top: 50px;
+    color: #272727;
+    font-size: 35px;
+    font-weight: 800;
+}
+.product-description p{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+    padding: 20px 0px 30px;
+}
+.product-main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.product-img{
+    width: 22%;
+    text-align: center;
+}
+.product-img img{
+    max-width: 100%; 
+    box-shadow:2px 2px 4px #e55473cc;
+}
+.product-img h5{
+    font-size: 25px;
+    color: #000;
+    padding: 20px 0px;
+
+}
+.product-img del{
+    padding: 0 7px;
+}
+.button{
+    border:0px;
+    background:#E55473;
+    color: #FFF;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.button:hover{
+    background: #000;
+    cursor: pointer;
+}
+/* my extra section end */
+
+/* my second section start */
 .section-2-h2{
     padding-top: 150px;
     text-align: center;
@@ -83,11 +137,11 @@ body{
 .section-bg-change{
     background: rgba(5, 151, 160, 0.15);
 }
+.section-bg-change{
+    padding-top: 50px;
+}
 .section-bg-change-1{
     background: rgba(71, 125, 17, 0.15);
-}
-.section-bg-change-1 img{
-  
 }
 .section-2-img{
     width: 180px;
@@ -111,6 +165,8 @@ body{
     display: block;
     padding: 20px 0px 110px; 
 }
+/* my second section end */
+
 /* my third section start */
 .section-3-container{
     border-radius: 8px;
@@ -134,16 +190,13 @@ body{
 .section-3-left span{
     color: #E55473;;
 }
-.section-3-right{
-}
 .section-3-flower{
     width: 300px;
     padding: 50px 0px;
 }
 /* my third section end*/
 /* my fourth section start */
-.section-4-h2{
-}
+
 .section-4-main{
     display: flex;
     justify-content:space-between;
@@ -161,8 +214,6 @@ body{
     margin: 120px 0px;
     background-image: url("Flower Asset/Rectangle\ 9.png");
     padding:120px 0px ;
-}
-.section-5-description{
 }
 .section-5-description h1{
     color: #272727;
