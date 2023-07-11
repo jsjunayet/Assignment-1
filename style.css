@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: lato; 
+}
+/* my first section start */
+.section-1{
+    background: rgba(229, 84, 115, 0.10);
+}
+.container{
+    width: 90%; 
+    margin:0px auto;
+
+}
+.section-1-main{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.section-1-main-left{
+    width: 45%;
+}
+.section-1-main-left h1{
+    color: #272727;
+    font-family: Lato;
+    font-size: 64px;
+}
+.section-1-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 30px 0px; 
+}
+.section-1-main-right{
+
+}
+.first-flower{
+    width: 500px; 
+    padding-top: 50px; 
+}
+.btn{
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0px;
+    padding:20px 40px;
+}
+./* my second section end */
+.section-2-description{
+
+}
+.section-2-h2{
+    padding-top: 150px;
+    text-align: center;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.section-2-p{
+    padding: 20px 0px 45px;
+    text-align: center;
+    line-height: 25px;
+}
+.section-2-main{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+}
+.section-2-flower{
+    border-radius: 200px 200px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 350px;
+    height:370px; 
+}
+.section-bg-change{
+    background: rgba(5, 151, 160, 0.15);
+}
+.section-bg-change-1{
+    background: rgba(71, 125, 17, 0.15);
+}
+.section-bg-change-1 img{
+  
+}
+.section-2-img{
+    width: 180px;
+    margin-top:100px; 
+}
+.first-2-section{
+    margin-top: 121px;
+}
+.ancoder-main{
+    display: flex;
+    justify-content:center;
+    gap: 230px;
+    text-align: center;
+}
+.ancoder-main a{
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    display: block;
+    padding: 20px 0px 110px; 
+}
+/* my third section start */
+.section-3-container{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.section-3-main{
+    display: flex;
+    justify-content: center;
+    gap:120px ;
+    align-items: center;
+}
+.section-3-left{
+    text-align: center;
+}
+.section-3-h2{
+    padding-top: 50px;
+    color: #272727;
+    font-size: 35px;
+    font-weight: 800;
+}
+.section-3-left span{
+    color: #E55473;;
+}
+.section-3-right{
+}
+.section-3-flower{
+    width: 300px;
+    padding: 50px 0px;
+}
+/* my third section end*/
+/* my fourth section start */
+.section-4-h2{
+}
+.section-4-main{
+    display: flex;
+    justify-content:space-between;
+}
+.section-4-flower{
+    width: 24%;
+}
+.section-4-flower img{
+    max-width: 100%;
+}
+/* my fourth section end */
+/* my fiveth section start */
+.section-5-main{ 
+    text-align: center;
+    margin: 120px 0px;
+    background-image: url("Flower Asset/Rectangle\ 9.png");
+    padding:120px 0px ;
+}
+.section-5-description{
+}
+.section-5-description h1{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.section-5-description p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+    padding: 10px 0px 45px;
+}
+input{
+    padding: 25px 20px;
+    width: 50%;
+    border: 0px;
+    border-radius: 8px; 
+    margin-left: 30px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn-5{
+    margin-left:20px;
+}
+/* my fiveth section start */
+.section-6{
+    background-color: #111010;
+}
+.section-6-main{
+    padding:120px 0px ;
+    text-align: center;
+}
+.section-6-h1{
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+.section-6-main span{
+    color: #FFF;
+}
+.section-6-p{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+    padding: 25px 0 30px;
+}
+.section-6-last{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
